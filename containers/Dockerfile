@@ -4,6 +4,7 @@ RUN apk update \
     && apk add \
       curl
 
+# install terragrunt ほげほげ
 RUN curl -L "https://github.com/gruntwork-io/terragrunt/releases/download/v0.23.27/terragrunt_linux_amd64" -o /usr/local/bin/terragrunt \
     && chmod +x /usr/local/bin/terragrunt
 
